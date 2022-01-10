@@ -7,4 +7,5 @@ Basics of Bioconductor http://www.bio-info-trainee.com/2922.html
 - Installation 
 https://www.bioconductor.org/install/  
 https://blog.csdn.net/TianzhouFeng/article/details/113488282
--
+- Data Structure
+- Bioconductor Structure: Software, Experiments, Annotation, Workflows
