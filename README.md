@@ -39,3 +39,10 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install("GenomicRanges")
 ```
+  
+#### Documentation
+To view documentation for the version of this package installed in your system, start R and enter:
+```
+  browseVignettes("GenomicRanges")
+```
+Vignettes = 小插曲；小片断
