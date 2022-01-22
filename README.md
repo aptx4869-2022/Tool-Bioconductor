@@ -45,5 +45,6 @@ To view documentation for the version of this package installed in your system, 
 ```
   browseVignettes("GenomicRanges")
 ``` 
-![1642831335(1)](https://user-images.githubusercontent.com/96965577/150627045-8707b941-6977-4fd4-b845-8cdbc84772b7.png
+![image](https://user-images.githubusercontent.com/96965577/150627126-75229db0-a792-4291-ac8b-c4bb8afb850b.png)
+
 
