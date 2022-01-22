@@ -9,7 +9,7 @@ http://www.bio-info-trainee.com/2922.html 合集
 - S4 language 面向对象，类接口与方法分离
 - 复习面向对象的程序设计（C++面向对象程序设计 谭浩强）
 - Installation 
-https://www.bioconductor.org/install/ 官方 <br>
+https://www.bioconductor.org/install/ 官方  
 https://blog.csdn.net/TianzhouFeng/article/details/113488282 一些可能的坑，按官方来应该不会遇到
 - Data Structure
 - Bioconductor Structure: Software, Experiments, Annotation, Workflows
@@ -30,3 +30,12 @@ Author: P. Aboyoun, H. Pagès, and M. Lawrence
 Maintainer: Bioconductor Package Maintainer <maintainer at bioconductor.org>
 Citation (from within R, enter citation("GenomicRanges")):
 Lawrence M, Huber W, Pagès H, Aboyoun P, Carlson M, Gentleman R, Morgan M, Carey V (2013). “Software for Computing and Annotating Genomic Ranges.” PLoS Computational Biology, 9. doi: 10.1371/journal.pcbi.1003118, http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003118.
+  
+#### **Installation**
+To install this package, start R (version "4.1") and enter:
+```
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("GenomicRanges")
+```
