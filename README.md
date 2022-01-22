@@ -9,7 +9,7 @@ http://www.bio-info-trainee.com/2922.html 合集
 - S4 language 面向对象，类接口与方法分离
 - 复习面向对象的程序设计（C++面向对象程序设计 谭浩强）
 - Installation 
-https://www.bioconductor.org/install/ 官方
+https://www.bioconductor.org/install/ 官方 <br>
 https://blog.csdn.net/TianzhouFeng/article/details/113488282 一些可能的坑，按官方来应该不会遇到
 - Data Structure
 - Bioconductor Structure: Software, Experiments, Annotation, Workflows
@@ -24,7 +24,7 @@ https://blog.csdn.net/TianzhouFeng/article/details/113488282 一些可能的坑�
 ### Representation and manipulation of genomic intervals
 Bioconductor version: Release (3.14)
 
-The ability to efficiently represent and manipulate genomic annotations and alignments is playing a central role when it comes to analyzing high-throughput sequencing data (a.k.a. NGS data). The GenomicRanges package defines general purpose containers for storing and manipulating genomic intervals and variables defined along a genome. More specialized containers for representing and manipulating short alignments against a reference genome, or a matrix-like summarization of an experiment, are defined in the GenomicAlignments and SummarizedExperiment packages, respectively. Both packages build on top of the GenomicRanges infrastructure.
+The ability to efficiently `represent and manipulate genomic annotations and alignments` is playing a central role when it comes to analyzing high-throughput sequencing data (a.k.a. NGS data). The GenomicRanges package defines `general purpose containers` for `storing and manipulating genomic intervals and variables` defined along a genome. More `specialized containers` for representing and manipulating `short alignments` against a reference genome, or `a matrix-like summarization of an experiment`, are defined in the `GenomicAlignments` and `SummarizedExperiment` packages, respectively. `Both packages build on top of the GenomicRanges infrastructure`.
 
 Author: P. Aboyoun, H. Pagès, and M. Lawrence
 Maintainer: Bioconductor Package Maintainer <maintainer at bioconductor.org>
